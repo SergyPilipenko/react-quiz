@@ -1,0 +1,51 @@
+.QuizCreator{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px ;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(270deg,#f0613c 0%, #f0783c 100%);
+}
+.QuizCreator >div{
+    width: 100%;
+    max-width: 700px;
+    padding: 0 20px;
+}
+.QuizCreator h1{
+    text-align: center;
+
+}
+.QuizCreator form{
+    background: #eee;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+
+}
+.success1 {
+    background: rgba(161, 240, 69, 1);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #000;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.primary1 {
+    background: #2884f6;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #000;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
